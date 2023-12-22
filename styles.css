@@ -16,7 +16,7 @@
     margin-top: -100px;
 }
 .navbar ul{
-    margin-left: 600px;
+    margin-right: initial;
 }
 .navbar ul li{
     list-style: none;
