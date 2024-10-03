@@ -3,40 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sharafath Ahammed V">
+    <meta name="keywords" content="studio, live, studiolive, studio live, photography, photographer">
+    <meta name="description" content="This is a website of photography studio at Athannikal, Malapuram, Kerala, India. Named 'Studio Live'">
     <title>Studio Live</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>    
-        <img src="logo.png" class="logo">
-        <div class="navbar">
-            <nav>
-                <ul>
-                    <li><a class="active" href="#home">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="work.html">WORKS</a></li>
-                    <li><a href="services.html">SERVICES</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <div class="content">    
-        <h1 style=" text-align: center; color: white; font-size: 60px; font-family: sans-serif;">Welcome to Studio Live</h1>
-        <h2 style=" font-size: 30px; color: rgb(27, 11, 255); font-family: Arial, Helvetica, sans-serif; background-image: image(sans-serif);">Vallikunnu,Malapuram</h2>
-        <p>Our works like wedding photography,card designing,momento designing,<br>photoshot,framming,cup printing,etc...</p>
+    <div class="main-content">
+        <header>    
+            <H1><a href="">STUDIO LIVE</a></H1>
+            <div class="navbar">
+                <nav>
+                    <div onclick="scrollToSection('home')">HOME</div>
+                    <div onclick="scrollToSection('about')">ABOUT</div>
+                    <div onclick="scrollToSection('works')">WORKS</div>
+                    <div onclick="scrollToSection('services')">SERVICES</div>
+                </nav>
+            </div>
+        </header>
+    
+        <main>  
+            <div id="home">
+                <h1>Welcome World!<br> It's Studio Live</h1>
+                <h2>Vallikunnu,Malapuram</h2>
+                <p>Our works like wedding photography,card designing,momento designing,<br>photoshot,framming,cup printing,etc...</p>
+            </div>  
+    
+            <div id="about">
+                wejrobvpejkfvpadms
+            </div>
+           
+            <div id="works">aksdvaojsndvijansv</div>
+    
+            <div id="services">aksldnvpajsndvjansdvna</div>
+    
+        </main>
+    
+        <footer>
+            <div class="links">    
+                <a href="https://instagram.com/shafilive7359?igshid=NjlwNzlyMDk2Mg==" target="_blank"><button class="btn1"><img src="insta.png">Instagram</button></a>
+                <a href="https://www.facebook.com/mohammed.shafi.9809" target="_blank"><button class="btn2"><img src="insta.png">Facebook</button></a>
+                <a href="https://maps.app.goo.gl/rL7DtfeHf37fgnJXA" target="_blank"><button class="btn3"><img src="insta.png">Location</button></a>
+            </div>
+            <div class="thanks">
+                <h1>Thank you for the support</h1>
+            </div>
+        </footer>
     </div>
 
-    <footer>
-        <div class="links">    
-            <a href="https://instagram.com/shafilive7359?igshid=NjlwNzlyMDk2Mg==" target="_blank"><button class="btn1"><img src="insta.png">Instagram</button></a>
-            <a href="https://www.facebook.com/mohammed.shafi.9809" target="_blank"><button class="btn2"><img src="insta.png">Facebook</button></a>
-            <a href="https://maps.app.goo.gl/rL7DtfeHf37fgnJXA" target="_blank"><button class="btn3"><img src="insta.png">Location</button></a>
-        </div>
-        <div class="thanks">
-            <h1>Thank you for the support</h1>
-        </div>
-    </footer>
+    <script src="script.js"></script>
 
 </body>
 </html>

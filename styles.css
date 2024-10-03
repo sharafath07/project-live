@@ -1,5 +1,5 @@
 body{
-    margin: 0;
+    margin-top: 100px;
     background-color: red;
 }
 header{
@@ -15,60 +15,67 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-.logo{
-    position: relative;
-    margin-top: 0%;
-    height: 100%;
-    width: 50%;
+header h1 a{
+    text-decoration: none;
+    font-size: 50px;
 }
+
 .navbar{
     background-color: #ff0000;
     overflow: hidden;
     margin: 0 10px 0 0;
-}
-.navbar ul{
     display: flex;
     flex-direction: row;
-    column-gap: 1%;
-    margin: 0;
+    column-gap: 2%;
     padding: 0;
 }
-.navbar ul li{
+.navbar div{
     list-style: none;
     display: inline;
-    margin: 0;
-    text-align: left;
-}
-.navbar ul li a{
+    margin: auto 5px;
     color: #fff;
-    text-decoration: none;
     text-transform: uppercase;
     font-weight: bolder;
     font-size: medium;
     float: left;
-    margin: 0;
     text-align: center;
-    padding: 14px 0px;
-    width: 75px;
+    padding: 14px 15px;
+    cursor: pointer;
 }
-.navbar ul li a:hover{
+.navbar div:hover{
     background-color: #ddd;
     color: black;
 }
-.navbar ul li a.active{
-    background-color: rgb(0, 168, 168);
-    color: white;
-}
-.content{
+main{
     margin-top: 10%;
 }
-.content h2{
+main h1{
     text-align: center;
-
+    color: white;
+    font-size: 60px;
+    font-family: sans-serif;
 }
-.content p{
+main h2{
+    text-align: center;
+    font-size: 30px; 
+    color: rgb(27, 11, 255); 
+    font-family: Arial, Helvetica, sans-serif; 
+}
+main p{
     font-size: x-large;
     text-align: center;
+}
+#home{
+    height: 100vh;
+}
+#about{
+    height: 100vh;
+}
+#works{
+    height: 100vh;
+}
+#services{
+    height: 100vh;
 }
 .links a{
     width: 130px;
@@ -100,59 +107,10 @@ header{
 .btn3:hover{
     background-color: aqua;
     color: white;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.2),  0 17px 50px 0 rgba(0,0,0,0.19);;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.2),  0 17px 50px 0 rgba(0,0,0,0.19);
 }
 .thanks{
     text-align: center;
     margin-top: 75px;
     color: aqua;
-}
-.flex1{
-    background: rgb(0, 0, 0);
-    margin-top: 0%;
-}
-.flex2{
-    background: rgba(0, 0, 0, 0.925);
-    margin-top: -1.6%;
-}
-.flex3{
-    background: rgba(0, 0, 0, 0.85);
-    margin-top: -1.65%;
-}
-.flex1 h1{
-    color: aqua;
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration: dashed;
-}
-.flex2 h1{
-    color: aqua;
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration: dashed;
-}
-.flex3 h1{
-    color: aqua;
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration: dashed;
-}
-.flex1 p{
-    color: aquamarine;
-    text-align: center;
-    margin-top: -20px;
-}
-.flex2 p{
-    color: aquamarine;
-    text-align: center;
-    margin-top: -20px;
-}
-.flex3 p{
-    color: aquamarine;
-    text-align: center;
-    margin-top: -20px;
-}
-.flex{
-    display: inline;
-    position: relative;
 }
